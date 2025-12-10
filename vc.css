@@ -1,0 +1,59 @@
+/* TITLE BAR */
+.title-bar {
+    background-color: #0b4a8f;
+    text-align: center;
+}
+
+/* VC Image */
+.vc-photo {
+    width: 80%;
+    border-radius: 50%;
+    border: 8px solid #0b4a8f;
+}
+
+/* Left Panel Box */
+.info-box {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.info-row {
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.info-row span {
+    font-weight: 600;
+    color: #000;
+}
+
+.info-row a {
+    color: #0b4a8f;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-danger {
+    background: #d9534f;
+    border: none;
+}
+
+/* Paragraph Style */
+.vc-section p {
+    text-align: justify;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .vc-photo {
+        width: 60%;
+    }
+
+    .info-box {
+        margin: auto;
+        width: 90%;
+    }
+}

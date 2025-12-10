@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission & Vision – SPMVV</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* ---------------- HEADER ---------------- */
+        .page-header {
+            background: #0b4c8c;
+            color: white;
+            padding: 35px 0;
+            text-align: center;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .breadcrumb-container {
+            background: #f8f9fa;
+            padding: 12px 25px;
+            font-size: 14px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .breadcrumb-container a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* ---------------- CONTENT ---------------- */
+        .content {
+            max-width: 1200px;
+            margin: 35px auto;
+            padding: 0 20px;
+            font-size: 17px;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        /* ---------------- VISION / MISSION CARD ---------------- */
+        .mv-card {
+            background: #e9f5fd;
+            display: flex;
+            width: 100%;
+            min-height: 170px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .mv-title {
+            background: #0b3a6a;
+            color: #fff;
+            width: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            font-weight: 700;
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        .mv-text {
+            padding: 25px;
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        /* MOBILE VIEW – title becomes horizontal */
+        @media (max-width: 768px) {
+            .mv-card {
+                flex-direction: column;
+            }
+
+            .mv-title {
+                writing-mode: horizontal-tb;
+                width: 100%;
+                padding: 12px;
+                text-align: center;
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- PAGE TITLE -->
+    <div class="page-header">Mission & Vision</div>
+
+    <!-- TOP PARAGRAPH -->
+    <div class="content">
+        Sri Padmavati Mahila Visvavidyalayam (University for Women) established in the year 1983 and Accredited with
+        'A+' Grade by NAAC has given unparalleled service to Women's Education in Andhra Pradesh, drawing on the great
+        cultural traditions of the Country as well as keeping in tune with changing times, channels of employability and
+        assuring quality education in teaching as well as research. We shall continue to produce graduates who are
+        equipped to contribute to the intellectual, social, political, moral and material development of the societies
+        in which they are to live and recognize that the development of contemporary societies reflects diversity along
+        side consensus and acknowledgement of the past as well as concern for innovation. We shall continue to undertake
+        training, research, consultancy and other forms of service to local and regional communities, which will enrich
+        our teaching and advance our quest for wisdom and truth. We shall make known our mission in Andhra Pradesh as
+        well as nationally and internationally.
+    </div>
+
+    <!-- ROW FOR SIDE-BY-SIDE VISION + MISSION -->
+    <div class="container mb-5">
+
+        <div class="row g-4">
+
+            <!-- VISION -->
+            <div class="col-md-6">
+                <div class="mv-card">
+                    <div class="mv-title">Vision</div>
+                    <div class="mv-text">
+                        To be a premier centre of education, both general and professional, for women to acquire
+                        knowledge, skills and attitudes required to lead life as complete citizens and pursue
+                        careers of their choice.
+                    </div>
+                </div>
+            </div>
+
+            <!-- MISSION -->
+            <div class="col-md-6">
+                <div class="mv-card">
+                    <div class="mv-title">Mission</div>
+                    <div class="mv-text">
+                        Emancipation of Women through acquisition of knowledge and empowerment through skill
+                        up-gradation, involvement and participation in various occupations in society, towards
+                        the end of establishing a progressive egalitarian society.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

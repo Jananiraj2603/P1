@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SPMVV International Relations</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/7c6fdffb8b.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      margin: 0;
+    }
+
+    /* Header Title Bar */
+    .page-header {
+      background: #0b3e72;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    /* Breadcrumb */
+    .breadcrumb-container {
+      background: #fff;
+      padding: 12px 0;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    /* Intro + Profile section */
+    .intro-text {
+      font-size: 17px;
+      line-height: 1.7;
+      font-weight: 500;
+    }
+
+    .profile-img {
+      max-width: 200px;
+      border-radius: 5px;
+    }
+
+    .profile-name {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: 600;
+      color: #0b3e72;
+    }
+
+    .profile-title {
+      font-size: 14px;
+      color: #444;
+    }
+
+    /* Section boxes */
+    .section-box {
+      background: #fff;
+      border-radius: 8px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      color: #0b3e72;
+    }
+
+    ul.custom-list {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    ul.custom-list li {
+      position: relative;
+      padding-left: 25px;
+      margin-bottom: 8px;
+    }
+
+    ul.custom-list li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #0b3e72;
+      font-size: 14px;
+    }
+
+    @media (max-width: 767px) {
+      .profile-img {
+        max-width: 150px;
+      }
+    }
+
+    .tile-box {
+            background: #003c71; /* SPMVV Dark Blue */
+            color: white;
+            padding: 18px;
+            border-radius: 10px;
+            text-align: left;
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: 0.2s ease;
+            width: 100%;
+        }
+
+        .tile-box:hover {
+            background: #002f59;
+            transform: translateY(-3px);
+        }
+
+        .new-badge {
+            background: #ffdb00;
+            color: #000;
+            padding: 3px 8px;
+            font-size: 12px;
+            font-weight: 700;
+            border-radius: 20px;
+            margin-left: 6px;
+        }
+
+        .container-box {
+            padding-top: 40px;
+            padding-bottom: 60px;
+        }
+        .brochure-header {
+            background-color: #003c71;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-top: 40px;
+          }
+
+          .pdf-container {
+            width: 100%;
+            height: 600px;
+            background: #ccc;
+            margin: 20px 0;
+          }
+
+          /* Responsive tweaks if needed */
+          @media (max-width: 575px) {
+            .tile {
+              font-size: 0.9rem;
+              padding: 16px;
+            }
+          }
+  </style>
+    
+</head>
+
+<body>
+
+  <!-- Page Header -->
+  <div class="page-header">International</div>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb-container">
+    Home / International
+  </div>
+
+  <div class="container my-5">
+
+    <!-- Intro + Profile Row -->
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-8 col-md-7 col-12">
+        <p class="intro-text">
+          <b>SPMVV invites you to explore the world of new educational and research opportunities. Experience global
+          education under the tutelage of our stellar faculty. Teaching staff at SPMVV hold prestigious honors such as
+          the Fulbright Fellowship, Raman Fellowship, DBT Fellowship, Susi Fellowship, Scholarships from the Department
+          of Science and Technology and Department of Biotechnology, Government of India.</b>
+        </p>
+      </div>
+      <div class="col-lg-4 col-md-5 col-12 text-center">
+        <img src="assets/images/IN.png" alt="Dean" class="img-fluid profile-img">
+        <div class="profile-name">Prof. P. Vijaya Lakshmi</div>
+        <div class="profile-title">Dean, International Relations</div>
+      </div>
+    </div>
+
+    <!-- Two-column Sections -->
+    <div class="row">
+
+      <div class="col-md-6">
+        <div class="section-box">
+          <div class="section-title">INTERNATIONAL RESEARCH COLLABORATIONS</div>
+          <ul class="custom-list">
+            <li>University of Oxford, UK</li>
+            <li>University of Sussex, USA</li>
+            <li>United Nations Asian & Pacific Training Center for ICT, South Korea</li>
+            <li>Kansai University, Osaka, Japan</li>
+            <li>Trainers Center for Women Entrepreneurs</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="section-box">
+          <div class="section-title">MoUs WITH INTERNATIONAL UNIVERSITIES</div>
+          <ul class="custom-list">
+            <li>Telugu Alliance of America, USA</li>
+            <li>Prince of Songkla University, Thailand</li>
+            <li>Southeast Asian University Partnership</li>
+            <li>Daffodil International University, Bangladesh</li>
+            <li>Universiti Malaysia Kelantan, Malaysia</li>
+            <li>Bangladesh Institute of ICT in Development, Dhaka</li>
+            <li>University Malaysia Terengganu, Malaysia</li>
+            <li>VidyaSangeetham Academy, Singapore</li>
+            <li>Blekinge Institute of Technology, Sweden</li>
+            <li>TANA, USA – Music & Dance Diploma</li>
+            <li>Suswara Academy of Music, Dallas, USA</li>
+            <li>Raga-Vahini Music Academy, Minneapolis, USA</li>
+            <li>Jigjiga University, Ethiopia</li>
+            <li>OHIO University, USA</li>
+            <li>Stanford University, USA</li>
+            <li>Auburn University, USA</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="container container-box">
+        <div class="row g-4">
+
+            <!-- COLUMN 1 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    Admission Criteria for International Students
+                    <span class="new-badge">NEW</span>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    PM–USHA Bridge Course
+                    <span class="new-badge">NEW</span>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    BTH Admission Notification
+                    <span class="new-badge">NEW</span>
+                </div>
+            </div>
+
+            <!-- ROW 2 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    BTH Application Form
+                    <span class="new-badge">NEW</span>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    BTH Admission Booklet
+                    <span class="new-badge">NEW</span>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    Admission Procedure
+                </div>
+            </div>
+
+            <!-- ROW 3 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    Fee Structure
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    Eligibility
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    Support Services
+                </div>
+            </div>
+
+            <!-- ROW 4 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    Locations
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    Overseas Education Facilitation Cell
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    Advanced Diploma in Music and Dance
+                </div>
+            </div>
+
+            <!-- ROW 5 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    Photo Gallery
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    Team
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    Conduct & Discipline
+                </div>
+            </div>
+
+            <!-- ROW 6 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    MoUs
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="tile-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    Fellowships for International Students
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="brochure-header">DIGITAL BROCHURE</div>
+
+    <div class="pdf-container">
+      <!-- Replace `path/to/your-brochure.pdf` with actual PDF url -->
+      <object data="path/to/your-brochure.pdf" type="application/pdf" width="100%" height="100%">
+      <p style="text-align: center;"><a href="assets/SPMVV-CIR-BROCHURE (1).pdf">Download the brochure</a></p>
+      </object>
+    </div>
+
+  </div>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

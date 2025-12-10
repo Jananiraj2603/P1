@@ -1,0 +1,449 @@
+/* HEADER */
+.logo {
+    width: 120px;
+}
+/* TOP SECTION */
+.top-section {
+    background: #ffffff;
+}
+
+.top-logo {
+    max-width: 180px;
+}
+
+.top-logo-right {
+    max-width: 140px;
+}
+
+.lang-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.main-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.inner-text p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* MAIN NAVBAR */
+.main-nav {
+    background: #b30000;
+}
+
+.main-nav .nav-link {
+    color: white;
+    padding: 10px 15px;
+}
+
+.main-nav .nav-link:hover {
+    background: #7a0000;
+    color: white;
+}
+
+/* NAVBAR */
+.sub-nav {
+    background: #003366;
+}
+.sub-nav .nav-link {
+    color: #fff !important;
+    padding: 10px 12px;
+    font-weight: 500;
+}
+.sub-nav .nav-link:hover {
+    background: #002244;
+}
+
+/* CAROUSEL IMAGE */
+.carousel-item img {
+    height: 900px;
+    object-fit: cover;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.title-bar {
+    background: #1766a6;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-block {
+    border-right: 1px solid #cfcfcf;
+    background: #fff;
+}
+
+.section-block:last-child {
+    border-right: none;
+}
+
+/* Scroll container */
+.scroll-box {
+    height: 260px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+/* List styling */
+.scroll-list {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+.scroll-list li {
+    padding: 5px 0;
+}
+
+/* LINKS STYLE */
+.item-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.item-link:hover {
+    color: #1766a6;
+    font-weight: bold;
+}
+
+.item-link.active {
+    color: #1766a6;
+    background: #e6f2ff;
+    padding: 3px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .section-block {
+        border-right: none !important;
+        border-bottom: 1px solid #d3d3d3;
+    }
+}
+
+/* TABS */
+.tabs-row .tab {
+    background: #3366cc;
+    color: #fff;
+    padding: 12px 0;
+    font-weight: 600;
+}
+
+/* ABOUT */
+/* LEFT IMAGE SHOULD TAKE EXACTLY 35% */
+.left-img-container {
+    flex: 0 0 35%;
+    max-width: 35%;
+}
+
+.left-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* RIGHT CONTENT = 65% */
+.blue-panel {
+    flex: 0 0 65%;
+    max-width: 65%;
+    background: #063970;
+}
+.blue-panel,.read-more
+{
+    text-align: center;
+}
+.content-wrapper {
+    width: 100%;
+}
+
+/* CARDS DESIGN */
+.info-card {
+    display: block;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.info-card:hover {
+    background: rgba(255, 255, 255, 0.18);
+    transform: translateY(-4px);
+}
+.info-card .icon i {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.read-more {
+    display: inline-block;
+    margin-top: 6px;
+    font-weight: 600;
+}
+
+/* RESPONSIVE (IMAGE FULL-WIDTH ON MOBILE) */
+@media (max-width: 768px) {
+    .left-img-container,
+    .blue-panel {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* ACADEMICS */
+.academics-section {
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(51, 49, 49);
+}
+
+.section-title {
+    color: #fff;
+    font-weight: 700;
+}
+
+.academic-card {
+    display: block;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 18px;
+    border-radius: 14px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+    backdrop-filter: blur(4px);
+    position: relative;
+    overflow: hidden;
+}
+
+.academic-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.academic-card h4 {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.academic-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* View More */
+.view-more {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 600;
+    color:#003366
+}
+
+/* BLINK EFFECT WHEN CLICKED */
+.academic-card:active {
+    animation: blinkEffect 0.25s ease-out;
+}
+
+@keyframes blinkEffect {
+    0% { box-shadow: 0 0 0px white; }
+    50% { box-shadow: 0 0 18px white; }
+    100% { box-shadow: 0 0 0px white; }
+}
+/* TOP AREA Background */
+.top-area {
+    position: relative;
+    background: #f8f9fa;
+    padding-bottom: 60px;
+    overflow: hidden;   /* ✨ IMPORTANT: keeps girl image inside only */
+}
+
+/* Girl Image */
+.girl-img-container {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    width: 320px;
+    z-index: 10;
+}
+
+.girl-img {
+    width: 100%;
+    opacity: 1;
+}
+
+/* Cards Styles (same as your design) */
+.spmvv-card {
+    background: #ffffff;
+    border-radius: 40px;
+    width:80%;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+}
+
+.icon-box {
+    width: 75px;
+    height: 75px;
+    background: #0b3b6a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.card-title-small {
+    color: #0b3b6a;
+    margin: 0;
+    font-weight: 600;
+}
+
+.card-title-big {
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.learn-more {
+    font-size: 14px;
+    color: #0b3b6a;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+/* PLACEMENTS + INTERNATIONAL section */
+.info-card {
+    background: linear-gradient(to right, #b6d4ee, #cca0c8);
+    border-radius: 20px;
+}
+.new-tag
+{
+    border:2px solid white;
+    border-radius: 25%;
+    background-color: rgb(189, 32, 123);
+    margin:5px;
+    padding:7px;
+}
+
+.info-title {
+    margin-top: 20px;
+}
+
+.details-btn {
+    margin-top: 10px;
+    background: #d72a2a;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.details-btn:hover {
+    background: #aa1e1e;
+}
+
+/* Hide girl only on small screens (like SPMVV website) */
+@media (max-width: 992px) {
+    .girl-img-container {
+        display: none;
+    }
+}
+
+body {
+    background-color: #f3effa;
+}
+
+/* Title */
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #062b55;
+}
+
+/* Left Image (you must place graduation.png in the folder) */
+.grad-img {
+    width: 260px;
+}
+
+/* Hexagon style */
+.hex-card {
+    width: 200px;
+    height: 190px;
+    background-color: #053d6d;
+    color: white;
+    clip-path: polygon(
+        50% 0%, 90% 25%, 90% 75%,
+        50% 100%, 10% 75%, 10% 25%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    margin: auto;
+    text-align: center;
+}
+
+.icon {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.hex-card h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.hex-card p {
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+/* Button */
+.view-more {
+    background-color: #062b55;
+    color: white;
+    padding: 20px;
+    margin:10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Blink animation class */
+.blink {
+    animation: blinkAnim 0.6s alternate infinite;
+}
+
+@keyframes blinkAnim {
+    0% { background-color: #062b55; }
+    100% { background-color: #0a6cc4; }
+}
+
+
+/* SCROLL TOP BUTTON */
+#scrollTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #003366;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 50%;
+    display: none;
+}

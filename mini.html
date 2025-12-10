@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Computer Science – SPMVV</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7c6fdffb8b.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="mini.css">
+</head>
+
+<body>
+
+    <header class="shadow-sm">
+
+        <!-- TOP SECTION -->
+        <div class="container-fluid py-3 top-section">
+            <div class="row align-items-center text-center text-md-start">
+
+                <!-- Left Logo -->
+                <div class="col-12 col-md-3 mb-3 mb-md-0">
+                    <img src="assets/images/logo-left.png" class="img-fluid top-logo">
+                </div>
+
+                <!-- Title Text -->
+                <div class="col-12 col-md-6 text-center">
+                    <h3 class="lang-title">శ్రీ పద్మావతి మహిళా విశ్వవిద్యాలయం</h3>
+                    <h2 class="main-title">SRI PADMAVATHI MAHILA VISWAVIDYALAYAM</h2>
+                    <h5>(Women's University)</h5>
+                    <h6>Tirupati, Andhra Pradesh - 517502, India</h6>
+
+                    <div class="inner-text mt-2">
+                        <p>Accredited with "A+" Grade by NAAC</p>
+                        <p>ISO 21001 : 2018 Certified</p>
+                    </div>
+                </div>
+
+                <!-- Right Logo -->
+                <div class="col-12 col-md-3 text-md-end mt-3 mt-md-0">
+                    <img src="assets/images/logo_right.png" class="img-fluid top-logo-right">
+                </div>
+
+            </div>
+        </div>
+        <!-- MAIN NAVIGATION -->
+        <!---<nav class="navbar navbar-expand-lg main-nav">
+            <div class="container">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="">RTI</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Admissions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Payment Portal</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Incubators</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">IIC</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Research</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">R&D Cell</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">PM Usha</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">APRCET 2024-25</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>-->
+        <!-- ------------------------------------------------------ -->
+        <!-- STICKY NAVBAR (Screenshot 1) -->
+        <!-- ------------------------------------------------------ -->
+        <nav class="navbar navbar-expand-lg sub-nav sticky-top">
+            <div class="container">
+
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mainNav">
+                    <i class="fa fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="Home.html">HOME</a></li>
+                        <!-- NAVBAR -->
+                        <nav class="navbar navbar-expand-lg navbar-dark spmvv-nav">
+                            <div class="container">
+
+                                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#spmvvNav">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="spmvvNav">
+                                    <ul class="navbar-nav mx-auto">
+
+                                        <li class="nav-item dropdown hover-open">
+                                            <a class="nav-link dropdown-toggle" href="#" id="aboutMenu">ABOUT</a>
+
+                                            <ul class="dropdown-menu spmvv-dropdown">
+                                                <li><a class="dropdown-item" href="spmvv.html">SPMVV</a></li>
+                                                <li><a class="dropdown-item" href="mission.html">MISSION & VISION</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="goals.html">GOALS</a></li>
+                                                <li><a class="dropdown-item" href="campus.html">CAMPUS</a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <nav class="navbar navbar-expand-lg navbar-dark spmvv-nav">
+                            <div class="container">
+
+                                <!-- Mobile toggle -->
+                                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#adminNav">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="adminNav">
+                                    <ul class="navbar-nav mx-auto">
+
+                                        <!-- ADMINISTRATION (ONLY SECTION YOU NEED) -->
+                                        <li class="nav-item dropdown hover-open">
+                                            <a class="nav-link dropdown-toggle" href="#" id="adminMenu" role="button">
+                                                ADMINISTRATION
+                                            </a>
+
+                                            <ul class="dropdown-menu spmvv-dropdown">
+                                                <li><a class="dropdown-item" href="vc.html">VICE CHANCELLOR</a></li>
+                                                <li><a class="dropdown-item" href="registrar.html">REGISTRAR</a></li>
+                                                <li><a class="dropdown-item" href="official.html">OFFICIALS</a></li>
+                                                <li><a class="dropdown-item" href="https://www.spmvv.ac.in/jbframework/uploads/2022/07/Organogram.pdf">ORGANOGRAM</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </nav>
+
+<!----ranking section----->
+<nav class="navbar navbar-expand-lg navbar-dark spmvv-nav">
+                            <div class="container">
+
+                                <!-- Mobile toggle -->
+                                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#adminNav">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="adminNav">
+                                    <ul class="navbar-nav mx-auto">
+
+                                        <!-- ADMINISTRATION (ONLY SECTION YOU NEED) -->
+                                        <li class="nav-item dropdown hover-open">
+                                            <a class="nav-link dropdown-toggle" href="#" id="adminMenu" role="button">
+                                                RANKING
+                                            </a>
+
+                                            <ul class="dropdown-menu spmvv-dropdown">
+                                                    <li><a class="dropdown-item" href="about.html">ABOUT</a></li>
+                                                    <li><a class="dropdown-item" href="members.html">MEMBERS</a></li>
+                                                    <li><a class="dropdown-item" href="https://www.spmvv.ac.in/jbframework/uploads/2022/07/ARIIA_2020-2021.pdf">ARIIA</a></li>
+                                                    <li><a class="dropdown-item" href="assets/images/QS.png">QS</a></li>
+                                                    <li><a class="dropdown-item" href="assets/images/world_ranking.pdf">WORLD RANKING</a></li>
+                                                    <li><a class="dropdown-item" href="assets/images/Best-BSchool-Certificate.pdf">BEST B-SCHOOL 2025</a></li>
+                                                </ul>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </nav>
+                        <li class="nav-item"><a class="nav-link" href="IN.html">INTERNATIONAL</a></li>
+<!----placement section----->           
+                <nav class="navbar navbar-expand-lg navbar-dark spmvv-nav">
+                            <div class="container">
+
+                                <!-- Mobile toggle -->
+                                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#adminNav">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="adminNav">
+                                    <ul class="navbar-nav mx-auto">
+
+                                        <!-- ADMINISTRATION (ONLY SECTION YOU NEED) -->
+                                        <li class="nav-item dropdown hover-open">
+                                            <a class="nav-link dropdown-toggle" href="#" id="adminMenu" role="button">
+                                                PLACEMENTS
+                                            </a>
+
+                                            <ul class="dropdown-menu spmvv-dropdown">
+                                                    <li><a class="dropdown-item" href="aboutus.html">ABOUT US</a></li>
+                                                    <li><a class="dropdown-item" href="placement.html">PLACEMENTS</a></li>                                            
+                                                    <li><a class="dropdown-item" href="team.html">PLACEMENT TEAM</a></li>
+                                                </ul>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </nav>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">GALLERY</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- PAGE TITLE -->
+        <div class="dept-title text-center">
+            <h2>Computer Science</h2>
+        </div>
+        <!-- BREADCRUMB -->
+        <div class="breadcrumb-custom text-center">
+            <i class="fa-solid fa-house"></i> &nbsp; School of Sciences / Computer Science
+        </div>
+        <!-- BANNER -->
+        <div class="banner">
+            <img src="assets/images/banner_arch.png" class="img-fluid w-100">
+        </div>
+    </header>
+    <div class="container-fluid page-layout">
+        <div class="row">
+
+            <!-- LEFT SIDEBAR -->
+            <div class="col-lg-3 col-md-4 sidebar">
+                <h5>DEPARTMENTS</h5>
+                <a href="maths.html">Applied Mathematics</a>
+                <a href="micro.html">Applied Microbiology</a>
+                <a href="bio.html">Biotechnology</a>
+                <a class="active" href="mini.html">Computer Science</a>
+                <a href="stats.html">Statistics</a>
+                <a href="science.html">Home Science</a>
+                <a href="organic.html">Organic Chemistry</a>
+                <a href="physics.html">Physics</a>
+                <a href="psycho.html">Psychology</a>
+            </div>
+
+            <!-- MAIN CONTENT -->
+            <div class="col-lg-9 col-md-8 content-area">
+                <h4>About the Department</h4>
+                <p>The field of Computer Science has excellent employment potential in the present explosion of
+                    technological development. The Department is offering 2 years Master of Computer Applications (MCA)
+                    programme with Choice Based Credit System in semester pattern. The Department is also offering
+                    Ph.D./M.Phil. Research programme on Full-time time and Part-time basis. The Department is providing
+                    training in all branches of Computer Science to meet the requirements of industry needs. The
+                    Department of Computer Science has an e-Class room, APSSDC Employability Skill Center, Digital Class
+                    Room and a Computer lab with high configured systems connected through LAN facility and latest
+                    Software.</p>
+                <p>In MCA III semester, Internship/Mini project is introduced to train the students in project
+                    development. In MCA VI semester, the students are deputed to external organizations for Major
+                    project work to get the exposure of the industrial needs and to enhance the project development
+                    skills. Campus interviews are conducted by many reputed organizations like TCS, Infosys, Mahindra,
+                    Wipro, Capgemini etc. to provide the job opportunities for the students.</p>
+
+                <div class="button-row">
+                    <button class="btn-red" onclick="goToLink('faculty')">Faculty</button>
+                    <button class="btn-red" onclick="goToLink('peos')">PEOs, PSOs, POs and COs</button>
+                    <button class="btn-red" onclick="goToLink('mentor')">Mentor List</button>
+                    <button class="btn-red" onclick="goToLink('magazines')">KEY Magazines</button>
+                    <button class="btn-red" onclick="goToLink('skill')">Skill Box</button>
+                </div>
+                <table class="info-table">
+                    <tr>
+                        <td>Year of Establishment</td>
+                        <td>1983 with PGDCA</td>
+                    </tr>
+                    <tr>
+                        <td>MCA Course</td>
+                        <td>1987</td>
+                    </tr>
+                    <tr>
+                        <td>Research Programme (Ph.D./M.Phil.)</td>
+                        <td>1998</td>
+                    </tr>
+                </table>
+
+                <h5>Vision :</h5>
+                <p>To achieve excellent standards of quality education by keeping pace with rapidly changing
+                    technologies and create manpower of global standards with capabilities of accepting new
+                    challenges/p>
+
+                <h5>Mission :</h5>
+                <ul class="mission-list">
+                    <li>To offer high-grade, value-based Post-graduate and Doctoral programmes...</li>
+                    <li>To bridge the gap between industry and academia...</li>
+                    <li>To offer tasks for experimental technology-intensive knowledge...</li>
+                    <li>To provide appropriate platforms in support of innovative talents...</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- PAGE CONTENT -->
+    <div class="container my-4 full-right">
+
+        <div class="program-header">Programmes</div>
+
+        <div class="content-box">
+
+            <!-- TABLE -->
+            <table class="table table-bordered mt-4">
+                <thead>
+                    <tr>
+                        <th>Programme Name</th>
+                        <th>Duration</th>
+                        <th>Regular Seats</th>
+                        <th>Self-Finance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Master of Computer Applications</td>
+                        <td>2 Years <br> (4 Semesters)</td>
+                        <td>44</td>
+                        <td>66</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Eligibility -->
+            <p><b>Eligibility :</b> Admissions are made through Integrated Common Entrance Test (ICET) conducted by A.P.
+                State Council of Higher Education, Hyderabad.</p>
+
+            <!-- Content -->
+            <h4 class="section-title">Programme Content</h4>
+
+            <h5 class="bullet-title">Value-added Courses:</h5>
+            <ul>
+                <li>Communicative English (1st Semester)</li>
+                <li>Life Skill Education (1st Semester)</li>
+                <li>Soft-Skill Education (1st Semester)</li>
+                <li>Foundation Course in Computer Applications (2nd Semester)</li>
+            </ul>
+
+            <h5 class="bullet-title">Core Subjects:</h5>
+            <p>
+                Computer Organization & Architecture, Programming in C++, Data Structures & Algorithms, Operating
+                System,
+                Principles of Management & Professional Communication, Principles of Probability & Statistics, Core
+                Java,
+                Data Communications and Computer Networks, Relational Database Management Systems, Software Engineering,
+                Artificial Intelligence & Machine Learning, Advanced Java & Web Technologies, Computer Graphics, Cloud
+                Computing & Technologies.
+            </p>
+
+            <h5 class="bullet-title">Elective Subjects:</h5>
+            <p>
+                Mobile Devices Application Development, Software Testing Methodologies, Design and Analysis of
+                Algorithms,
+                Linux Programming, Data Mining, Cyber Security,Data Analytics, Software Production Management,
+                Programming in Dot Net Technologies, Bioinformatics, Neuro Fuzzy and Genetic Algorithms, Digital Image
+                Processing, Innovation and Entrepreneurship, Python & R Programming, Block Chain Technology. etc.
+            </p>
+            <h5 class="bullet-title">External Electives:</h5>
+            <ul>
+                <li>Web Designing</li>
+                <li>C Programming</li>
+                <li>Python Programming</li>
+            </ul>
+        </div>
+    </div>
+    <!-- PAGE CONTENT -->
+    <div class="container my-4 full-right">
+
+        <h2 class="section-title text-center">Research Programmes</h2>
+
+        <div class="research-box mt-4 p-4">
+            <p>
+                The Department is actively involved in the Research Programmes on various thrust areas.
+                The Ph.D. Research Programme is offered by the Department on Full-time and Part-time basis
+                by following the UGC guidelines.
+            </p>
+        </div>
+
+        <h5 class="mt-4 fw-bold">Key Areas of Research</h5>
+        <p class="research-list">
+            Artificial Intelligence, Bigdata Analytics, Internet of Things, Block Chain Technology, Cloud Computing,
+            Machine Learning, Data Science, Data Mining, Deep Learning, Soft Computing, Neural Networks,
+            Image Processing, Pattern Recognition, Bio-Computing, Bio Informatics, GIS & Remote Sensing.
+        </p>
+
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer-section mt-5">
+        <div class="container py-5">
+            <div class="row g-4">
+
+                <!-- ABOUT -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">ABOUT SPMVV</h5>
+                    <p>
+                        Sri Padmavati Mahila Visvavidyalayam (University for Women) was founded in 1983
+                        to train women students to become better builders of the Nation and inculcate
+                        leadership skills.
+                    </p>
+                    <a href="#" class="read-more">Read More →</a><br><br>
+                    <h5 class="footer-title">CONNECT WITH US</h5><br>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+
+                <!-- IMPORTANT LINKS -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">IMPORTANT LINKS</h5>
+                    <ul class="footer-links">
+                        <li>University ACT, Recognition</li>
+                        <li>Library</li>
+                        <li>Anti Ragging</li>
+                        <li>Sexual Harassment Handbook</li>
+                        <li>Drug Policy</li>
+                        <li>Grievances Redressal Cell</li>
+                        <li>NSS Cell</li>
+                        <li>Alumini</li>
+                        <li>Feedback</li>
+                        <li>Privacy Policy</li>
+                        <li>Eagle club</li>
+                        <li>Annual Accounts</li>
+                    </ul>
+                </div>
+
+                <!-- QUICK LINKS -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">QUICK LINKS</h5>
+                    <ul class="footer-links">
+                        <li>Academic Calendar</li>
+                        <li>School of Sciences</li>
+                        <li>School of Social Sciences</li>
+                        <li>School of Nursing</li>
+                        <li>Pharmaceutical Tech.</li>
+                        <li> School of Engineering & Technology</li>
+                        <li>Journals</li>
+                        <li>NewsLetters</li>
+                        <li>Webmail</li>
+                        <li>SPMVV LMS</li>
+                        <li>Life Skills</li>
+                        <li>Faculty awards</li>
+                        <li>Automation</li>
+                    </ul>
+                </div>
+
+                <!-- CONTACT DETAILS -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">CONTACT DETAILS</h5>
+
+                    <p><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Padmavati Nagar, Tirupati,<br>&nbsp;&nbsp;
+                        Andhra Pradesh - 517502.</p>
+
+                    <p>📞 0877–2284588</p>
+                    <p>✉️ registrar@spmvv.ac.in</p>
+
+                    <!-- Search Bar -->
+                    <div class="input-group mt-3">
+                        <input type="text" class="form-control" placeholder="Search...">
+                        <button class="btn btn-primary">
+                            🔍
+                        </button>
+                    </div><br><br>
+                    <div class="badges">
+                        <img src="assets/images/iso.png" alt="naac">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="mini.js"></script>
+
+</body>
+
+</html>

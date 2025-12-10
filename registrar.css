@@ -1,0 +1,52 @@
+/* Title bar styling */
+.title-bar {
+  background-color: #0b4a8f;
+}
+/* Registrar photo styling */
+.reg-photo {
+  width: 80%;
+  border-radius: 50%;
+  border: 8px solid #0b4a8f;
+}
+
+/* Info box on left */
+.info-box {
+  background: #fff;
+  border-radius: 4px;
+}
+
+.info-row {
+  font-size: 15px;
+  margin: 6px 0;
+}
+
+.info-row span {
+  font-weight: 600;
+  color: #000;
+}
+
+.info-row a {
+  color: #0b4a8f;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Body paragraphs */
+.reg-body p {
+  text-align: justify;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .reg-photo {
+    width: 60%;
+  }
+
+  .info-box {
+    margin: auto;
+    width: 90%;
+  }
+}

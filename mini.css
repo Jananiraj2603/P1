@@ -1,0 +1,382 @@
+body {
+    background: #f5f6fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* TOP SECTION */
+.top-section {
+    background: #ffffff;
+}
+
+.top-logo {
+    max-width: 180px;
+}
+
+.top-logo-right {
+    max-width: 140px;
+}
+
+.lang-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.main-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.inner-text p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* MAIN NAVBAR */
+.main-nav {
+    background: #b30000;
+}
+.main-nav .nav-link {
+    color: white;
+    padding: 10px 15px;
+}
+
+.main-nav .nav-link:hover {
+    background: #7a0000;
+    color: white;
+}
+
+/* NAVBAR */
+/* NAVBAR BLUE STRIP */
+.spmvv-nav {
+    background-color: #003366 !important;
+    padding: 0;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    padding: 14px 22px;
+    font-weight: 600;
+}
+
+/* DROPDOWN */
+.spmvv-dropdown {
+    background-color: #003366;
+    border-radius: 0;
+    padding: 0;
+    width: 240px;
+}
+
+.spmvv-dropdown .dropdown-item {
+    color: #fff;
+    padding: 14px 18px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.spmvv-dropdown .dropdown-item:hover {
+    background-color: #005799;
+}
+
+/* SHOW DROPDOWN ON HOVER (DESKTOP) */
+@media (min-width: 992px) {
+    .hover-open:hover > .dropdown-menu {
+        display: block;
+    }
+}
+
+.sub-nav {
+    background: #003366;
+}
+.sub-nav .nav-link {
+    color: #fff !important;
+    padding: 10px 12px;
+    font-weight: 500;
+}
+.sub-nav .nav-link:hover {
+    background: #002244;
+}
+
+/* PAGE TITLE */
+.dept-title {
+    background: #ececec;
+    padding: 15px 0;
+}
+
+.dept-title h2 {
+    margin: 0;
+    font-weight: 700;
+}
+/* Navbar background */
+.spmvv-nav {
+    background-color: #03254c; /* Dark blue like SPMVV */
+}
+
+/* Space between nav items */
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+/* Link styling */
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 14px !important;
+}
+
+/* Dropdown menu */
+.spmvv-dropdown {
+    padding: 8px 0;
+}
+
+/* Show dropdown on hover (desktop) */
+.hover-open:hover .dropdown-menu {
+    display: block;
+}
+
+/* Mobile responsive spacing */
+@media (max-width: 991px) {
+    .navbar-nav .nav-item {
+        margin: 8px 0;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 12px !important;
+    }
+}
+
+
+/* BREADCRUMB */
+.breadcrumb-custom {
+    padding: 10px;
+    background: #f5f5f5;
+    font-weight: 500;
+}
+
+/* BANNER */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+/* FULL WIDTH CONTAINER */
+.page-layout {
+    margin-top: 40px;
+}
+
+/* SIDEBAR */
+.sidebar {
+    background-color: #0d3c66;
+    height: 70vh;
+    padding: 20px;
+}
+
+.sidebar h5 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background-color: #082946;
+}
+
+/* MAIN CONTENT */
+.content-area {
+    padding: 20px 50px;
+}
+
+/* BUTTONS */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.btn-red {
+    padding: 12px 24px;
+    background-color: #d9534f;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.btn-red:hover {
+    background-color: #b52b27;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+    .btn-red {
+        flex: 1 1 100%;
+    }
+}
+
+
+/* TABLE */
+.info-table {
+    width: 85%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.info-table td {
+    border: 1px solid #dcdcdc;
+    padding: 12px;
+}
+
+/* MISSION LIST */
+.mission-list {
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.mission-list li {
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+.full-right {
+    margin-left: auto;
+    margin-right: 40px;
+    width:70%;
+    max-width: 100%;
+}
+
+/* Page Section Header */
+.program-header {
+    color: black;
+    padding: 12px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: #d6cccc;
+    border:2px solid rgb(233, 222, 222);
+    border-radius: 5px;
+}
+
+/* Card Box */
+.content-box {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+
+/* Table Header */
+.table thead  tr th{
+    background-color: #003366;
+    color: white;
+    text-align: center;
+}
+.table tbody tr td{
+    text-align: center;
+    color:black;
+    font-weight: 600;
+}
+/* Headings */
+.section-title {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.bullet-title {
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:rgb(21, 21, 63);
+}
+
+/* Title */
+.section-title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    border:2px solid whitesmoke;
+    background-color: #dcdcdc;
+
+}
+
+/* Research Box */
+.research-box {
+    background-color:beige;
+    border:2px solid whitesmoke;
+    border-radius: 4px;
+}
+
+/* Footer */
+.footer-section {
+    background-color: #003366;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.footer-links li:hover {
+    text-decoration: underline;
+}
+
+.read-more {
+    color: #a8d0ff;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Search bar button */
+.btn-primary {
+    background-color: #005bbb;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #004999;
+}
+.social-icons {
+    display: flex;
+    gap:20px;
+    font-size: 20px;
+}
+.badges img {
+    height:100px;
+    margin-right: 8px
+}
+/* Responsive Fix */
+@media (max-width: 768px) {
+    .dept-title {
+        font-size: 22px;
+        padding: 20px 0;
+    }
+}
